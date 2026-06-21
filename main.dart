@@ -1,3 +1,4 @@
 void main(){
-  print("Hello World");
+  double a = 10/0;
+  print(a.isInfinite);
 }
