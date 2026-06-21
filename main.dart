@@ -1,4 +1,6 @@
 void main(){
-  double a = 10/0;
-  print(a.isInfinite);
+String value1 = "Hello";
+print(value1);
+value1 = '$value1 World';
+print(value1);
 }
