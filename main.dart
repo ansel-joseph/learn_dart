@@ -1,6 +1,5 @@
 void main(){
-String value1 = "Hello";
+final value1 = DateTime.now();
 print(value1);
-value1 = '$value1 World';
-print(value1);
+
 }
