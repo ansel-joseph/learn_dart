@@ -1,5 +1,8 @@
 void main(){
-final value1 = DateTime.now();
-print(value1);
-
+ int age = 13;
+if (age>=18){
+  print("You are eligible to vote.");
+} else {
+  print("You are not eligible to vote.");   
+}
 }
