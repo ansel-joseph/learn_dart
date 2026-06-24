@@ -1,10 +1,5 @@
 void main(){
- int age = 13;
- String value = "HI";
-switch(value){
-    case "HI" when age > 18:
-        print("Hello");
-    default:
-        print("Bye");
-}
+    for(int i = 1; i<=10; i++){
+        print("Hello World $i");
+    }
 }
